@@ -18,6 +18,9 @@ class Counter extends Component {
         <button onClick={() => this.setState({ count: this.state.count - 1 })}>
             minus
         </button>
+        <div>
+        <Link to="/">HOME</Link>
+    </div>
       </div>  
     )
   }
